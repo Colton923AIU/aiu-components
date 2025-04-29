@@ -1,0 +1,10 @@
+export declare const PeoplePickerGroupNotFound = "Group not found.";
+export declare const PeoplePickerSearchText = "Search for users";
+export declare const PeoplePickerItemLimitExceeded = "User limit exceeded.";
+export declare const PeoplePickerGroupLimitExceeded = "Group limit exceeded.";
+export declare const peoplePickerRemoveSuggestion = "Remove suggestion";
+export declare const peoplePickerSuggestionsHeaderText = "Suggested users";
+export declare const genericNoResultsFoundText = "No results found";
+export declare const peoplePickerLoadingText = "Loading users...";
+export declare const peoplePickerComponentTooltipMessage = "People Picker";
+//# sourceMappingURL=ControlStrings.d.ts.map

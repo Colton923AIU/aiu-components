@@ -1,0 +1,1 @@
+{"version":3,"file":"ISharePointHelper.d.ts","sourceRoot":"","sources":["../../src/sharepoint-helpers/ISharePointHelper.ts"],"names":[],"mappings":"AAAA;;GAEG;AACH,MAAM,WAAW,iBAAiB;IAChC;;OAEG;IACH,OAAO,EAAE,MAAM,CAAC;IAEhB;;OAEG;IACH,OAAO,EAAE,CAAC,GAAG,EAAE,MAAM,EAAE,OAAO,CAAC,EAAE,WAAW,KAAK,OAAO,CAAC,QAAQ,CAAC,CAAC;CACpE"}

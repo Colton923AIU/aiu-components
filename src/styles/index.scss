@@ -1,0 +1,17 @@
+/* Global styles entry point */
+
+/* Import AIU theme variables and styles */
+@import './aiu-theme.scss';
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* You can add more global styles or import additional files here */ 

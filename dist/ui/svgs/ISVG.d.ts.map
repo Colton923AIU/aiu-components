@@ -1,0 +1,1 @@
+{"version":3,"file":"ISVG.d.ts","sourceRoot":"","sources":["../../../src/ui/svgs/ISVG.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,OAAO,CAAC;AAE1C,MAAM,WAAW,IAAI;IACnB,OAAO,CAAC,EAAE,iBAAiB,CAAC,aAAa,CAAC,CAAC;IAC3C,UAAU,CAAC,EAAE,KAAK,CAAC,aAAa,CAAC;IACjC,MAAM,CAAC,EAAE,OAAO,CAAC;CAClB"}

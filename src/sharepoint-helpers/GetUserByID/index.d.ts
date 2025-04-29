@@ -1,0 +1,1 @@
+export { IGetUserByID } from "./IGetUserByID";

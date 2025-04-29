@@ -1,0 +1,1 @@
+{"version":3,"file":"IGetUserIDByEmail.d.ts","sourceRoot":"","sources":["../../../src/sharepoint-helpers/GetUserIDByEmail/IGetUserIDByEmail.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,sBAAsB,CAAC;AACzD;;GAEG;AACH,UAAU,iBAAkB,SAAQ,iBAAiB;IACnD;;OAEG;IACH,KAAK,EAAE,MAAM,CAAC;CACf;AAED,YAAY,EAAE,iBAAiB,EAAE,CAAC"}

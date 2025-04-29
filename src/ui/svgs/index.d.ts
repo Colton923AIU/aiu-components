@@ -1,0 +1,1 @@
+export { ISVG } from "./ISVG";

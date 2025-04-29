@@ -1,0 +1,1 @@
+{"version":3,"file":"IGetUserByID.d.ts","sourceRoot":"","sources":["../../../src/sharepoint-helpers/GetUserByID/IGetUserByID.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,MAAM,sBAAsB,CAAC;AAEzD;;GAEG;AACH,UAAU,YAAa,SAAQ,iBAAiB;IAC9C;;OAEG;IACH,EAAE,EAAE,MAAM,CAAC;CACZ;AAED,YAAY,EAAE,YAAY,EAAE,CAAC"}

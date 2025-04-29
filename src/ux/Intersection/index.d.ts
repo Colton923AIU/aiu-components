@@ -1,0 +1,1 @@
+export { IIntersectionProps } from "./IIntersectionProps";

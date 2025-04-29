@@ -1,0 +1,124 @@
+@use "../../styles/shared" as *;
+@use "sass:color";
+
+// Button variables
+$btn-padding: 8px 16px;
+$btn-border-radius: 2px;
+$btn-transition: all 0.2s ease-in-out;
+$btn-font-weight: 500;
+
+// Colors
+$primary-color: #0066cc;
+$secondary-color: #6c757d;
+$white: #ffffff;
+
+// Button base styles
+.aiu-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: $btn-padding;
+  border-radius: $btn-border-radius;
+  font-weight: $btn-font-weight;
+  cursor: pointer;
+  transition: $btn-transition;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 1.5;
+  text-decoration: none;
+  min-width: 80px;
+
+  &:focus {
+    outline: 1px solid var(--themeDark);
+    outline-offset: 1px;
+  }
+
+  // Icon styles
+  .aiu-btn__icon,
+  .aiu-btn__icon-after {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.25em;
+  }
+
+  // Loading spinner
+  .aiu-btn__spinner {
+    animation: spin 1s linear infinite;
+  }
+}
+
+// Button variants
+.aiu-btn--primary {
+  background-color: var(--themePrimary);
+  color: var(--white);
+
+  &:hover:not(.aiu-btn--disabled) {
+    background-color: var(--themeDarkAlt);
+    transform: translateY(-1px);
+  }
+
+  &:active:not(.aiu-btn--disabled) {
+    background-color: var(--themeDark);
+    transform: translateY(0);
+  }
+}
+
+.aiu-btn--secondary {
+  background-color: var(--white);
+  color: var(--themePrimary);
+  border: 1px solid var(--themePrimary);
+
+  &:hover:not(.aiu-btn--disabled) {
+    background-color: var(--themeLighter);
+    transform: translateY(-1px);
+  }
+
+  &:active:not(.aiu-btn--disabled) {
+    transform: translateY(0);
+  }
+}
+
+.aiu-btn--outline {
+  background-color: transparent;
+  border: 1px solid var(--neutralTertiaryAlt);
+  color: var(--neutralPrimary);
+
+  &:hover:not(.aiu-btn--disabled) {
+    background-color: var(--neutralLight);
+    transform: translateY(-1px);
+  }
+
+  &:active:not(.aiu-btn--disabled) {
+    transform: translateY(0);
+  }
+}
+
+.aiu-btn--text {
+  background-color: transparent;
+  color: var(--themePrimary);
+  padding: 6px 8px;
+
+  &:hover:not(.aiu-btn--disabled) {
+    background-color: var(--themeLighter);
+  }
+}
+
+// Disabled state
+.aiu-btn--disabled {
+  background-color: var(--neutralLight);
+  color: var(--neutralTertiary);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+// Loading spinner animation
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
