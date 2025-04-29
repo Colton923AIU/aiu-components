@@ -1,3 +1,11 @@
 import { Intersection } from "./Intersection";
+import { LazyLoad } from "./LazyLoad";
+import { Parallax } from "./Parallax";
+import { ScrollProgress } from "./ScrollProgress";
 
-export { Intersection };
+export { 
+  Intersection,
+  LazyLoad,
+  Parallax,
+  ScrollProgress
+};
